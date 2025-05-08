@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <head>
+        <title>Advanced HTML5 Elements and Forms</title>
+        </head>
+    <body>
+        <h1>ORDERED LIST</h1>
+        <p>Here is a list of things required in the table in this index.html file:</p><br>
+        <ol type="i">
+            <li>Name</li>
+            <li>Email</li>
+            <li>Password</li>
+            <li>Date fields</li>
+            <br><br>
+        </ol>
+        <img src="https://images.pexels.com/photos/31839125/pexels-photo-31839125/free-photo-of-silhouettes-of-three-men-in-dramatic-lighting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt="Silhouettes of 3 men" width="360" height="270">
+        <br><br>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Emily Consai</td>
+                <td>Nakuru County</td>
+                <td>0756329649</td>
+                <td>consai94@gmail.com</td>
+            </tr>
+            <tr>
+                <td>George Okello</td>
+                <td>Kisumu County</td>
+                <td>0112850375</td>
+                <td>geookello@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Betty Bayo</td>
+                <td>Kericho County</td>
+                <td>0789462388</td>
+                <td>bayob65@gmail.com</td>
+            </tr>
+            <tr>
+                <td>David Mwenda</td>
+                <td>Mombasa County</td>
+                <td>0733857125</td>
+                <td>davimwe521@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Tracy Kamau</td>
+                <td>Embu County</td>
+                <td>0114746101</td>
+                <td>kamrac84@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+<form>
+    <fieldset>
+        <label for="Registration Form">Registration Form</label>
+        <br><br>
+        <label for="Name">Name:</label>
+        <input type="text" name="Your Name" id="Your Name" placeholder="Enter your name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" name="email address" id="email address" placeholder="Enter your email" required>
+        <br><br>
+        <label for="Password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter password" required>
+        <br><br>
+        <label for="Date fields">Date:</label>
+        <input type="date" name="date" id="date" required>
+        <br><br>
+        <select name="County" id="County">
+            <option>--County Residence--</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Nakuru">Nakuru</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Embu">Embu</option>
+            <option value="Meru">Meru</option>
+            <option value="Kilifi">Kilifi</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Kericho">Kericho</option>
+        </select>
+        <br><br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="gender" id="gender-male" value="Male">Male
+        <input type="radio" name="gender" id="gender-female" value="Female">Female
+        <br><br>
+        <label for="Profession">Profession:</label>
+        <input type="checkbox" name="profession" id="profession" value="Unemployed">Unemployed
+        <input type="checkbox" name="profession" id="profession" value="Self-employed">Self-employed
+        <input type="checkbox" name="profession" id="profession" value="Govt-employed">Govt-employed
+        <input type="checkbox" name="profession" id="profession" value="NGO-employed">NGO-employed
+        <br><br>
+        <button type="submit">Register</button>
+        <button type="button">Cancel</button>
+    </fieldset>
+</form>
+    </body>
+</html>
